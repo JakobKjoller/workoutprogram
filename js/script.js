@@ -47,8 +47,11 @@ function Createworkout(value) {
         $('<div class="note">' + value.note + '</div>').appendTo(workout);
     }
 
-    
-        const setsContainer = $('<div class="sets"></div>').appendTo(workout);
+    if(value.sets) 
+        {
+        
+       
+    const setsContainer = $('<div class="sets"></div>').appendTo(workout);
 
         value.sets.forEach(set => {
             const setDiv = $('<div class="set"></div>');
@@ -81,6 +84,7 @@ function Createworkout(value) {
             setDiv.appendTo(setsContainer);
         });
      
+    }  
 
     workout.appendTo(resultDiv);
 }
