@@ -1,0 +1,80 @@
+body {
+  font-size: 22px;
+}
+
+.daily {
+  padding-top: 40px;
+}
+.daily h1 {
+  margin-bottom: 20px;
+}
+.daily h1,
+.daily h2 {
+  color: #95241B;
+}
+.daily button {
+  font-size: 2em;
+}
+
+.description h2,
+.description h3 {
+  color: #95241B;
+}
+.description .card-header {
+  text-align: center;
+}
+
+.workoutdiv {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.workoutdiv .workout {
+  margin-bottom: 30px;
+}
+.workoutdiv .workout .note {
+  font-size: 1.2em;
+}
+.workoutdiv .workout .set {
+  display: table;
+  width: 100%;
+  border: 1px solid #666666;
+  border-spacing: 5px;
+  margin-bottom: 10px;
+}
+.workoutdiv .workout .set .rounds {
+  display: table-row;
+  width: 100%;
+}
+.workoutdiv .workout .exercises {
+  display: table;
+  width: 100%;
+  margin: auto;
+  /*cellspacing:poor IE support for  this*/
+  /* border-collapse:separate;*/
+}
+.workoutdiv .workout .exercises h3 {
+  text-align: center;
+}
+.workoutdiv .workout .exercises .exerciserow {
+  display: table-row;
+  width: auto;
+}
+.workoutdiv .workout .exercises .exercise {
+  float: left;
+  /*fix for  buggy browsers*/
+  display: table-column;
+}
+.workoutdiv .workout .exercises .exerciserep {
+  float: left;
+  /*fix for  buggy browsers*/
+  display: table-column;
+  width: 40px;
+}
+
+.container {
+  max-width: 100%;
+}

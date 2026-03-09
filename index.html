@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Trænings program
+  </title>
+  <link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body>
+  <div class="container w-100">
+    <div class="row">
+      <div class="p-0 col-sm description">
+        <img src="assets/programforside.jpg" width="100%">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h2>Formål</h2>
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>
+                  Formålet er at give dig en sjov og udfordrende måde at få bevægelse ind i din hverdag på, og samtidig give dig en masse variation i din træning.
+                </p>
+               
+
+              </div>
+            </div>
+          </div>
+         </div>
+        <div class="p-5">
+
+
+        </div>
+      </div>
+      <div class="daily col-sm">
+        <h1 class="text text-center">
+          Trænings program
+        </h1>
+        <center>
+          <button type="button" class="btn btn-dark challange">Random!!</button>
+        </center>
+        <div class="workoutdiv">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+
+  <script src="js/script.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      var resultDiv = $('.workoutdiv');
+
+      $(".challange").on("click", function () {
+        resultDiv.empty();
+        console.log("Challanged");
+        LoadRandomOne();
+      });
+
+
+      LoadAll();
+
+
+    });
+
+
+  </script>
+
+</body>
+
+</html>

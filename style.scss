@@ -1,0 +1,102 @@
+body {
+    font-size: 22px;
+}
+
+.daily {
+    padding-top: 40px;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    h1,
+    h2 {
+        color: #95241B;
+    }
+
+    button {
+        font-size: 2em;
+    }
+}
+
+.description {
+
+    h2,
+    h3 {
+        color: #95241B;
+    }
+
+    .card-header {
+        text-align: center;
+    }
+}
+
+.workoutdiv {
+
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+
+
+    .workout {
+        margin-bottom: 30px;
+
+        .title {}
+
+        .note {
+            font-size: 1.2em;
+        }
+
+        .set {
+            display: table;
+            width: 100%;
+            border: 1px solid #666666;
+            border-spacing: 5px;
+            margin-bottom: 10px;
+
+            .rounds {
+                display: table-row;
+                width: 100%;
+            }
+        }
+
+        .exercises {
+            display: table;
+            width: 100%;
+
+            h3 {
+                text-align: center;
+            }
+
+            margin: auto;
+
+            /*cellspacing:poor IE support for  this*/
+            /* border-collapse:separate;*/
+            .exerciserow {
+                display: table-row;
+                width: auto;
+            }
+
+            .exercise {
+                float: left;
+                /*fix for  buggy browsers*/
+                display: table-column;
+            }
+
+            .exerciserep {
+                float: left;
+                /*fix for  buggy browsers*/
+                display: table-column;
+                width: 40px;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 100%;
+}

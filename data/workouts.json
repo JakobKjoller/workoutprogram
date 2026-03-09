@@ -1,0 +1,157 @@
+[
+    {
+        "title": "Dag 1",
+        "note": "Ben og core fokus",
+        "sets": [
+            {
+                "name": "Cirkel 1",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Air Squats (ned til vandret lår)"
+                    },
+                    {
+                        "reps": 30,
+                        "name": "sekunder planke"
+                    }
+                ]
+            },
+            {
+                "name": "Cirkel 2",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Lounges på hvert ben",
+                        "help": "https://youtu.be/-BBv3OMviEo?si=uk_Qs2gXOjvibdjE"
+                    },
+                    {
+                        "reps": 30,
+                        "name": "sekunder side planke på hver side"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Dag 2",
+        "note": "",
+        "sets": [
+            {
+                "name": "Cirkel 1",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Push-Ups (evt på knæ)"
+                    },
+                    {
+                        "reps": 2,
+                        "name": "Get-ups til hver side",
+                        "help": "https://youtu.be/H7w1xCeBkXM?si=v6YZCNrWI5NE02Hs"
+                    }
+                ]
+            },
+            {
+                "name": "Cirkel 2",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Sit-ups"
+                    },
+                    {
+                        "reps": 10,
+                        "name": "sec leg raises",
+                        "help": "https://youtu.be/JB2oyawG9KI?si=I7YaBkSQlXwBhir6"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Dag 3",
+        "note": "",
+        "sets": [
+            {
+                "name": "Cirkel 1",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Bridges",
+                        "help": "https://youtu.be/OUgsJ8-Vi0E?si=CRDDPbcKTplkYro8"
+                    },
+                    {
+                        "reps": 10,
+                        "name": "Air squats"
+                    }
+                ]
+            },
+            {
+                "name": "Cirkel 2",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 2,
+                        "name": "No-jump burpees",
+                        "help": "https://youtu.be/we5OJ7-zb48?si=FhLd7p4efwC_FVcc",
+                        "note": "Om du skal kravle op, så laver du dem ;)"
+                    },
+                    {
+                        "reps": 10,
+                        "name": "Jumping Jacks (sprælle-mænd)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Dag 4",
+        "note": "Aktiv hviledag - 45 min gang"
+    },
+    {
+        "title": "Dag 5",
+        "note": "",
+        "sets": [
+            {
+                "name": "Cirkel 1",
+                "rounds": 5,
+                "exercises": [
+                    {
+                        "reps": 10,
+                        "name": "Jump squats (air squats hvor du slipper jorden med fødderne)"
+                    },
+                    {
+                        "reps": 6,
+                        "name": "Long jumps (hop så langt du kan og tilbage igen.)"
+                    }
+                ]
+            },
+            {
+                "name": "Cirkel 2",
+                "rounds": 10,
+                "exercises": [
+                    {
+                        "reps": 20,
+                        "name": "Air squats"
+                    },
+                    {
+                        "reps": 10,
+                        "name": "Hindu push-ups",
+                        "help": "https://youtu.be/CdH5dT12axE?si=fGl8LDfxNF0OVOBR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Dag 6",
+        "note": "5 km gang/løb. For hvert 500 meter, stop og lav 20 Air squats eller 10 push-ups."
+    },
+    {
+        "title": "Dag 7",
+        "note": "Aktiv hviledag - 45 min gang"
+    }
+]
